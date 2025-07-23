@@ -18,6 +18,9 @@ export default function HomePage() {
           </div>
           <div className="flex items-center space-x-4">
             <Button variant="ghost" asChild>
+              <Link href="/learn-team">Team Practice</Link>
+            </Button>
+            <Button variant="ghost" asChild>
               <Link href="/team-assessment">Team Assessment</Link>
             </Button>
             <Button variant="ghost" asChild>
